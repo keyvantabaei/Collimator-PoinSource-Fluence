@@ -1,0 +1,11 @@
+# ArcTherapy : True
+# Therapy Angle : 100
+# Therapy Plan : ZX
+# Starting angle : 45
+# Number of Beams : 11
+# Angle Between Each Beam : 10.0
+# SAD : 100  cm
+# Field Size Y: 3.0  X :  3.0  cm
+# Energy : 10 MeV
+
+weghited at h2 isocenter

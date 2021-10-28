@@ -1,0 +1,4 @@
+weighted ad Dmax alg Z axis 45 degree wedge Pb material
+
+// wedge_y = 26.7949 mm theta =15 deg
+// wedge_y = 10 mm theta =45 deg

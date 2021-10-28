@@ -1,0 +1,627 @@
+/run/initialize
+/control/verbose  0
+/run/verbose 0
+/event/verbose    0
+/tracking/verbose 0
+############################## Beam  1  ########################
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  -1.0  0  0.0
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre 100.0  0  0.0  cm
+
+/gps/direction -1.0  0  -0.0
+############################## END  ########################
+
+############################## Beam  2  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  -0.9848  0  0.1736
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre 98.48  0  17.36  cm
+
+/gps/direction -0.9848  0  -0.1736
+############################## END  ########################
+
+############################## Beam  3  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  -0.9397  0  0.342
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre 93.97  0  34.2  cm
+
+/gps/direction -0.9397  0  -0.342
+############################## END  ########################
+
+############################## Beam  4  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  -0.866  0  0.5
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre 86.6  0  50.0  cm
+
+/gps/direction -0.866  0  -0.5
+############################## END  ########################
+
+############################## Beam  5  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  -0.766  0  0.6428
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre 76.6  0  64.28  cm
+
+/gps/direction -0.766  0  -0.6428
+############################## END  ########################
+
+############################## Beam  6  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  -0.6428  0  0.766
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre 64.28  0  76.6  cm
+
+/gps/direction -0.6428  0  -0.766
+############################## END  ########################
+
+############################## Beam  7  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  -0.5  0  0.866
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre 50.0  0  86.6  cm
+
+/gps/direction -0.5  0  -0.866
+############################## END  ########################
+
+############################## Beam  8  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  -0.342  0  0.9397
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre 34.2  0  93.97  cm
+
+/gps/direction -0.342  0  -0.9397
+############################## END  ########################
+
+############################## Beam  9  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  -0.1736  0  0.9848
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre 17.36  0  98.48  cm
+
+/gps/direction -0.1736  0  -0.9848
+############################## END  ########################
+
+############################## Beam  10  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  -0.0  0  1.0
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre 0.0  0  100.0  cm
+
+/gps/direction -0.0  0  -1.0
+############################## END  ########################
+
+############################## Beam  11  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  0.1736  0  0.9848
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre -17.36  0  98.48  cm
+
+/gps/direction 0.1736  0  -0.9848
+############################## END  ########################
+
+############################## Beam  12  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  0.342  0  0.9397
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre -34.2  0  93.97  cm
+
+/gps/direction 0.342  0  -0.9397
+############################## END  ########################
+
+############################## Beam  13  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  0.5  0  0.866
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre -50.0  0  86.6  cm
+
+/gps/direction 0.5  0  -0.866
+############################## END  ########################
+
+############################## Beam  14  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  0.6428  0  0.766
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre -64.28  0  76.6  cm
+
+/gps/direction 0.6428  0  -0.766
+############################## END  ########################
+
+############################## Beam  15  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  0.766  0  0.6428
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre -76.6  0  64.28  cm
+
+/gps/direction 0.766  0  -0.6428
+############################## END  ########################
+
+############################## Beam  16  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  0.866  0  0.5
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre -86.6  0  50.0  cm
+
+/gps/direction 0.866  0  -0.5
+############################## END  ########################
+
+############################## Beam  17  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  0.9397  0  0.342
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre -93.97  0  34.2  cm
+
+/gps/direction 0.9397  0  -0.342
+############################## END  ########################
+
+############################## Beam  18  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  0.9848  0  0.1736
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre -98.48  0  17.36  cm
+
+/gps/direction 0.9848  0  -0.1736
+############################## END  ########################
+
+############################## Beam  19  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  1.0  0  0.0
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre -100.0  0  0.0  cm
+
+/gps/direction 1.0  0  -0.0
+############################## END  ########################
+
+############################## Beam  20  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  0.9848  0  -0.1736
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre -98.48  0  -17.36  cm
+
+/gps/direction 0.9848  0  0.1736
+############################## END  ########################
+
+############################## Beam  21  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  0.9397  0  -0.342
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre -93.97  0  -34.2  cm
+
+/gps/direction 0.9397  0  0.342
+############################## END  ########################
+
+############################## Beam  22  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  0.866  0  -0.5
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre -86.6  0  -50.0  cm
+
+/gps/direction 0.866  0  0.5
+############################## END  ########################
+
+############################## Beam  23  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  0.766  0  -0.6428
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre -76.6  0  -64.28  cm
+
+/gps/direction 0.766  0  0.6428
+############################## END  ########################
+
+############################## Beam  24  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  0.6428  0  -0.766
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre -64.28  0  -76.6  cm
+
+/gps/direction 0.6428  0  0.766
+############################## END  ########################
+
+############################## Beam  25  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  0.5  0  -0.866
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre -50.0  0  -86.6  cm
+
+/gps/direction 0.5  0  0.866
+############################## END  ########################
+
+############################## Beam  26  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  0.342  0  -0.9397
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre -34.2  0  -93.97  cm
+
+/gps/direction 0.342  0  0.9397
+############################## END  ########################
+
+############################## Beam  27  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  0.1736  0  -0.9848
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre -17.36  0  -98.48  cm
+
+/gps/direction 0.1736  0  0.9848
+############################## END  ########################
+
+############################## Beam  28  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  0.0  0  -1.0
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre -0.0  0  -100.0  cm
+
+/gps/direction 0.0  0  1.0
+############################## END  ########################
+
+############################## Beam  29  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  -0.1736  0  -0.9848
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre 17.36  0  -98.48  cm
+
+/gps/direction -0.1736  0  0.9848
+############################## END  ########################
+
+############################## Beam  30  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  -0.342  0  -0.9397
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre 34.2  0  -93.97  cm
+
+/gps/direction -0.342  0  0.9397
+############################## END  ########################
+
+############################## Beam  31  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  -0.5  0  -0.866
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre 50.0  0  -86.6  cm
+
+/gps/direction -0.5  0  0.866
+############################## END  ########################
+
+############################## Beam  32  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  -0.6428  0  -0.766
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre 64.28  0  -76.6  cm
+
+/gps/direction -0.6428  0  0.766
+############################## END  ########################
+
+############################## Beam  33  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  -0.766  0  -0.6428
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre 76.6  0  -64.28  cm
+
+/gps/direction -0.766  0  0.6428
+############################## END  ########################
+
+############################## Beam  34  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  -0.866  0  -0.5
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre 86.6  0  -50.0  cm
+
+/gps/direction -0.866  0  0.5
+############################## END  ########################
+
+############################## Beam  35  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  -0.9397  0  -0.342
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre 93.97  0  -34.2  cm
+
+/gps/direction -0.9397  0  0.342
+############################## END  ########################
+
+############################## Beam  36  ########################
+/gps/source/add 1
+/gps/particle gamma
+/gps/pos/type Beam
+/gps/ene/type Mono
+/gps/ene/mono  10 MeV
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/rot1  -0.9848  0  -0.1736
+/gps/pos/rot2 0 1 0
+/gps/pos/halfy  1.5  cm
+/gps/pos/halfx  1.5  cm
+/gps/pos/centre 98.48  0  -17.36  cm
+
+/gps/direction -0.9848  0  0.1736
+############################## END  ########################
+
+/run/beamOn  100
+
+# ArcTherapy : False
+# Therapy Angle : 360
+# Therapy Plan : ZX
+# Starting angle : 0
+# Number of Beams : 36
+# Angle Between Each Beam : 10.0
+# SAD : 100  cm
+# Field Size Y: 3.0  X :  3.0  cm
+# Energy : 10 MeV

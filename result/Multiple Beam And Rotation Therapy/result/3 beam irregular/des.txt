@@ -1,0 +1,1 @@
+weighted ad h2 isocenter (49,49)  SAD 100 cm,start angle 45 , beam 1 45 deg beam2:135 deg beam3: 270 deg
